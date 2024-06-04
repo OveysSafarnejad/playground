@@ -1,11 +1,11 @@
 """
 This module is created for testing two functions those separate anagrams from a list of words.
-Anagrams are words with sae characters but in different orders.
+Anagrams are words with same characters but in different orders.
 First function (written by ChatGPT) uses sorting technique and has the time complexity of O(n.mlog m)
 Second function (My Idea) uses arrays and tuples as a key for the anagrams dictionary with the time complexity of O(n.m)
 
 However, It does not mean that my code is faster.
-For the cases with long words my approach operates ore efficient but for the short words the other solution is faster.
+For the cases with long words my approach operates more efficient but for the short words the other solution is faster.
 """
 
 import time
